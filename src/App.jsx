@@ -3,7 +3,7 @@ import "./index.css";
 import Header from "./components/Header";
 import Cover from "./components/Cover";
 // import Review from "./components/Review";
-// import Intro from "./components/Intro";
+import Intro from "./components/Intro";
 // import Services from "./components/Services";
 // import Profession from "./components/Profession";
 // import Contact from "./components/Contact";
@@ -17,14 +17,14 @@ function App() {
         <Header />
         <Cover />
       </div>
-      {/* <div className="middle">
-        <Review />
+      <div className="middle">
+        {/* <Review /> */}
         <Intro />
-        <Services />
+        {/* <Services />
         <Profession />
-        <Contact />
+        <Contact /> */}
       </div>
-      <Gallery /> */}
+      {/* <Gallery /> */}
       {/* <div id="footer" className="footer">
         <Footer />
       </div> */}

@@ -1,0 +1,55 @@
+.intro {
+  display: grid;
+  gap: 50px;
+  padding: 100px 50px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.intro-title {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  grid-area: 1/1/2/2;
+}
+.intro-title-question {
+  font-size: 21px;
+}
+
+.intro-title-answer {
+  font-size: 32px;
+}
+
+.intro-para-one {
+  grid-area: 1/2/2/3;
+  line-height: 24px;
+}
+
+.intro-photo {
+  height: 500px;
+  grid-area: 2/1/4/2;
+  background-image: url("/public/images/intro.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.intro-para-two {
+  grid-area: 2/2/3/3;
+  line-height: 24px;
+}
+
+.intro-experience {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  grid-area: 3/2/4/3;
+}
+
+.intro-experience-title {
+  font-size: 26px;
+}
+
+.inrto-benefit-one,
+.intro-benefit-two {
+  background-color: #5cc0de;
+  padding: 10px 0px 10px 10px;
+}
