@@ -1,0 +1,41 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+  z-index: 1000;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-left {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  align-self: center;
+  justify-self: flex-end;
+}
+
+.nav-left li a {
+  color: #333333;
+}
+
+.nav-left li a:hover {
+  color: #a6abad;
+  font-weight: 700;
+}
+
+.nav-right {
+  margin-right: 50px;
+  align-self: center;
+  justify-self: flex-end;
+}
+.navbar.scrolled {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+  background-color: gray;
+  opacity: 0.8;
+}

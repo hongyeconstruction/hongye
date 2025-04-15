@@ -1,0 +1,15 @@
+.serviceAccess {
+  border: none;
+  padding: 10px 24px;
+  background-color: #75a3de;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.serviceAccess:hover {
+  background-color: #fff;
+  color: #75a3de;
+  transform: scale(0.95);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
