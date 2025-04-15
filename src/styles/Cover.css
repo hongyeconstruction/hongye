@@ -1,0 +1,41 @@
+.cover {
+  margin-top: 135px;
+  margin-left: 90px;
+  width: 700px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  gap: 40px;
+}
+.corp-logo {
+  height: 200px;
+  width: 200px;
+  background: url("/public/images/logo.png");
+  background-size: cover;
+  background-position: center;
+}
+.corp-logo-name {
+  display: flex;
+  gap: 20px;
+  grid-column: 1;
+  color: #fff;
+}
+
+.corp-name {
+  width: 405px;
+  font-size: 43px;
+  font-weight: 500;
+  align-self: center;
+}
+
+.corp-descrip {
+  width: 435px;
+  font-family: "Inter";
+  grid-column: 1;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.corp-btn {
+  grid-column: 1;
+}

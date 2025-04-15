@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
 import Header from "./components/Header";
-// import Cover from "./components/Cover";
+import Cover from "./components/Cover";
 // import Review from "./components/Review";
 // import Intro from "./components/Intro";
 // import Services from "./components/Services";
@@ -15,7 +15,7 @@ function App() {
     <div id="homepage" className="main-flex-container">
       <div className="topper">
         <Header />
-        {/* <Cover /> */}
+        <Cover />
       </div>
       {/* <div className="middle">
         <Review />
