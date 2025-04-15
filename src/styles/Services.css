@@ -1,0 +1,34 @@
+.service {
+  margin: 50px 60px;
+  padding-top: 50px;
+  display: flex;
+  gap: 60px;
+  flex-direction: column;
+}
+
+.service-title {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.service-title-left {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.service-description {
+  line-height: 25px;
+}
+
+.service-answer {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.service-gallery {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(3, 1fr);
+}

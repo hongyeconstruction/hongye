@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import Cover from "./components/Cover";
 // import Review from "./components/Review";
 import Intro from "./components/Intro";
-// import Services from "./components/Services";
+import Services from "./components/Services";
 // import Profession from "./components/Profession";
 // import Contact from "./components/Contact";
 // import Gallery from "./components/Gallery";
@@ -20,9 +20,8 @@ function App() {
       <div className="middle">
         {/* <Review /> */}
         <Intro />
-        xxx
-        {/* <Services />
-        <Profession />
+        <Services />
+        {/* <Profession />
         <Contact /> */}
       </div>
       {/* <Gallery /> */}
