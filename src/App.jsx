@@ -28,7 +28,6 @@ function App() {
       {/* <div id="footer" className="footer">
         <Footer />
       </div> */}
-      xxx
     </div>
   );
 }
