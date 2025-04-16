@@ -1,0 +1,108 @@
+.main-footer {
+  padding: 70px 85px 130px 50px;
+  position: relative;
+  overflow: hidden;
+
+  display: flex;
+  gap: 150px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  color: #fff;
+}
+
+.main-footer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url(/public/images/footer.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.footer-corp-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo-name {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-corp-name {
+  width: 230px;
+  font-size: 24px;
+  font-weight: 500;
+  align-self: center;
+}
+
+.footer-corp-logo {
+  width: 150px;
+  background: url("/public/images/logo.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.footer-service {
+  margin: 45px 0px 0px 25px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.footer-contact {
+  padding-top: 100px;
+  flex: 1;
+  display: flex;
+  gap: 45px;
+  flex-direction: column;
+}
+
+.footer-contact-title {
+  font-size: 34px;
+}
+
+.footer-contact-email,
+.footer-contact-phone {
+  font-size: 26px;
+}
+
+.footer-contact-wechat {
+  width: 100px;
+  height: 100px;
+  background-image: url("/public/images/qrcode.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.footer-links {
+  flex: 1;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+.footer-links-title {
+  font-size: 34px;
+  padding-top: 50px;
+}
+
+.footer-links a {
+  color: #fff;
+}
+
+.SocialIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 25px;
+}
