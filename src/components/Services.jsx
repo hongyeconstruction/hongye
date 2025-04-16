@@ -16,7 +16,6 @@ function createServiceDetail(service) {
 }
 
 function Services() {
-  console.log(services);
   return (
     <div id="service" className="service">
       <div className="service-title">
