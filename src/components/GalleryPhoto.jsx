@@ -1,11 +1,11 @@
 import React from "react";
 
-function GalleryPhoto(photo) {
+function GalleryPhoto({ src }) {
   return (
     <div
       className="gallery-photo"
       style={{
-        backgroundImage: `url(${photo.src})`,
+        backgroundImage: `url(${src})`,
       }}
     ></div>
   );
