@@ -6,14 +6,11 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
-    publicPath: "/hongye/",
     clean: true,
   },
   mode: "development",
   devServer: {
-    static: {
-      directory: path.join(__dirname, "public"),
-    },
+    static: path.join(__dirname, "public"),
     port: 3000,
     hot: true,
     open: true,
