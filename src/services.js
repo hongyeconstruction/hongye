@@ -1,3 +1,6 @@
+import interlock from "./assets/services/interlock.jpg";
+import building from "./assets/services/building.jpg";
+
 const services = [
   {
     id: 1,
@@ -5,7 +8,7 @@ const services = [
     name: "INTERLOCKING DRIVEWAY",
     content:
       "We do driveways, walkways, backyards, driveway extensions, front entraces, patios",
-    image: "/images/services/interlock.jpg",
+    image: interlock,
   },
   {
     id: 2,
@@ -13,7 +16,7 @@ const services = [
     name: "NATURAL STONE",
     content:
       "Some of the most common types of natural stones include granite, marble limestone, sandstone, slate, and travertine.",
-    image: "/images/services/building.jpg",
+    image: building,
   },
 ];
 
