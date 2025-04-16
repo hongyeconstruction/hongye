@@ -4,7 +4,7 @@ import "../styles/Gallery.css";
 import gallery from "../gallery";
 
 function createGalleryPhoto(photo) {
-  return <GalleryPhoto key={photo.id} name={photo.name} />;
+  return <GalleryPhoto key={photo.id} name={photo.name} src={photo.src} />;
 }
 function Gallery() {
   return (

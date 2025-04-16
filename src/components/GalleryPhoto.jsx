@@ -5,7 +5,7 @@ function GalleryPhoto(photo) {
     <div
       className="gallery-photo"
       style={{
-        backgroundImage: `url("/images/gallery/${photo.name}")`,
+        backgroundImage: `url(${photo.src})`,
       }}
     ></div>
   );
