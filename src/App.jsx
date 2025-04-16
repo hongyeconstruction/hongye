@@ -7,7 +7,7 @@ import Intro from "./components/Intro";
 import Services from "./components/Services";
 import Profession from "./components/Profession";
 // import Contact from "./components/Contact";
-// import Gallery from "./components/Gallery";
+import Gallery from "./components/Gallery";
 // import Footer from "./components/Footer";
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
         <Profession />
         {/* <Contact /> */}
       </div>
-      {/* <Gallery /> */}
+      <Gallery />
       {/* <div id="footer" className="footer">
         <Footer />
       </div> */}
