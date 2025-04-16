@@ -1,0 +1,53 @@
+.profession {
+  margin: 50px 60px;
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.profession-title {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  grid-column: 1 / span 2;
+}
+
+.profession-title-question {
+  font-size: 19px;
+}
+
+.profession-title-answer {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.profession-bottom {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 25px;
+}
+
+.profession-photo {
+  flex: 1;
+  order: 1;
+  width: 500px;
+  grid-area: 2/2/3/3;
+  background-image: url("/public/images/profession-photo.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.profession-card {
+  flex: 1;
+  display: flex;
+  gap: 50px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .profession {
+    flex-direction: column;
+  }
+}

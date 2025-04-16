@@ -1,0 +1,27 @@
+.profession-detail {
+  width: 240px;
+  font-family: "-apple-system";
+  grid-area: 2/1/3/2;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.profession-detail-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+  background-color: #91b8cd;
+}
+.profession-detail-subtitle {
+  margin-top: 26px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+}
+.profession-detail-description {
+  margin-top: 8px;
+  line-height: 24px;
+}

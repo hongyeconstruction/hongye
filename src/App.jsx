@@ -5,7 +5,7 @@ import Cover from "./components/Cover";
 // import Review from "./components/Review";
 import Intro from "./components/Intro";
 import Services from "./components/Services";
-// import Profession from "./components/Profession";
+import Profession from "./components/Profession";
 // import Contact from "./components/Contact";
 // import Gallery from "./components/Gallery";
 // import Footer from "./components/Footer";
@@ -21,8 +21,8 @@ function App() {
         {/* <Review /> */}
         <Intro />
         <Services />
-        {/* <Profession />
-        <Contact /> */}
+        <Profession />
+        {/* <Contact /> */}
       </div>
       {/* <Gallery /> */}
       {/* <div id="footer" className="footer">
