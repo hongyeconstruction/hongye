@@ -29,11 +29,11 @@
 }
 
 .profession-photo {
+  min-height: 300px;
   flex: 1;
   order: 1;
-  width: 500px;
   grid-area: 2/2/3/3;
-  background-image: url("/public/images/profession-photo.jpg");
+  background-image: url("../../public/images/profession-photo.JPG");
   background-size: cover;
   background-position: center;
 }
@@ -46,8 +46,20 @@
   flex-wrap: wrap;
 }
 
-@media (max-width: 768px) {
-  .profession {
+@media (max-width: 430px) {
+  .profession-bottom {
+    width: 100%;
+    display: flex;
     flex-direction: column;
+  }
+
+  .profession-card {
+    flex-direction: column;
+    align-content: center;
+    order: 2;
+  }
+  .profession-photo {
+    margin-bottom: 20px;
+    width: 100%;
   }
 }

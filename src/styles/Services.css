@@ -1,6 +1,5 @@
 .service {
   margin: 50px 60px;
-  padding-top: 50px;
   display: flex;
   gap: 60px;
   flex-direction: column;
@@ -31,4 +30,20 @@
   display: grid;
   gap: 50px;
   grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 430px) {
+  .service {
+    margin: 0px;
+    padding: 0px 60px;
+  }
+  .service-title {
+    display: flex;
+    flex-direction: column;
+  }
+  .service-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
 }

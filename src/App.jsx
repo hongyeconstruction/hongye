@@ -20,7 +20,7 @@ function App() {
       <div className="middle">
         <Intro />
         <Services />
-        {/* <Profession /> */}
+        <Profession />
       </div>
       {/* <Gallery /> */}
       {/* <div id="footer" className="footer">
