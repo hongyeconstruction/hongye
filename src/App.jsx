@@ -17,11 +17,11 @@ function App() {
         <Header />
         <Cover />
       </div>
-      {/* <div className="middle">
+      <div className="middle">
         <Intro />
         <Services />
-        <Profession />
-      </div> */}
+        {/* <Profession /> */}
+      </div>
       {/* <Gallery /> */}
       {/* <div id="footer" className="footer">
         <Footer />

@@ -18,13 +18,13 @@ function Header() {
   return (
     <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
       <div
-        class={`hamburger ${extended ? "open" : ""}`}
+        className={`hamburger ${extended ? "open" : ""}`}
         id="mobile-menu"
         onClick={() => setExtended(!extended)}
       >
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
+        <span className="bar"></span>
+        <span className="bar"></span>
+        <span className="bar"></span>
       </div>
       <ul className={`nav-left ${extended ? "open" : ""}`}>
         <li>
