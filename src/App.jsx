@@ -15,7 +15,7 @@ function App() {
     <div id="homepage" className="main-flex-container">
       <div className="topper">
         <Header />
-        {/* <Cover /> */}
+        <Cover />
       </div>
       {/* <div className="middle">
         <Intro />
