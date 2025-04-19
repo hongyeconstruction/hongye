@@ -5,6 +5,7 @@ import "../styles/Header.css";
 
 function Header() {
   const [scrolled, setScrolled] = useState(false);
+  const [extended, setExtended] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -16,7 +17,16 @@ function Header() {
   }, []);
   return (
     <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
-      <ul className="nav-left">
+      <div
+        class={`hamburger ${extended ? "open" : ""}`}
+        id="mobile-menu"
+        onClick={() => setExtended(!extended)}
+      >
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul className={`nav-left ${extended ? "open" : ""}`}>
         <li>
           <a href="#homepage">Home</a>
         </li>
@@ -33,13 +43,11 @@ function Header() {
           <a href="#footer">Contact us</a>
         </li>
       </ul>
-      <ul className="nav-right">
-        <li href="#">
-          <ServiceAccess />
-        </li>
-      </ul>
+      <div className="nav-right">
+        <ServiceAccess />
+      </div>
     </nav>
   );
 }
-
+// x
 export default Header;

@@ -15,19 +15,17 @@ function App() {
     <div id="homepage" className="main-flex-container">
       <div className="topper">
         <Header />
-        <Cover />
+        {/* <Cover /> */}
       </div>
-      <div className="middle">
-        {/* <Review /> */}
+      {/* <div className="middle">
         <Intro />
         <Services />
         <Profession />
-        {/* <Contact /> */}
-      </div>
-      <Gallery />
-      <div id="footer" className="footer">
+      </div> */}
+      {/* <Gallery /> */}
+      {/* <div id="footer" className="footer">
         <Footer />
-      </div>
+      </div> */}
     </div>
   );
 }
