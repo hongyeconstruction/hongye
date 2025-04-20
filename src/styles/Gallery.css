@@ -32,3 +32,8 @@
   background-size: cover;
   background-position: center;
 }
+@media (max-width: 430px) {
+  .gallery-title {
+    font-size: 32px;
+  }
+}
