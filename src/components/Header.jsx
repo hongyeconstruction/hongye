@@ -6,7 +6,9 @@ import "../styles/Header.css";
 function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [extended, setExtended] = useState(false);
-
+  const handleLinkClick = () => {
+    setExtended(false);
+  };
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 10);
@@ -28,19 +30,29 @@ function Header() {
       </div>
       <ul className={`nav-left ${extended ? "open" : ""}`}>
         <li>
-          <a href="#homepage">Home</a>
+          <a href="#homepage" onClick={handleLinkClick}>
+            Home
+          </a>
         </li>
         <li>
-          <a href="#aboutus">About us</a>
+          <a href="#aboutus" onClick={handleLinkClick}>
+            About us
+          </a>
         </li>
         <li>
-          <a href="#service">Our Service</a>
+          <a href="#service" onClick={handleLinkClick}>
+            Our Service
+          </a>
         </li>
         <li>
-          <a href="#gallery">Gallery</a>
+          <a href="#gallery" onClick={handleLinkClick}>
+            Gallery
+          </a>
         </li>
         <li>
-          <a href="#footer">Contact us</a>
+          <a href="#footer" onClick={handleLinkClick}>
+            Contact us
+          </a>
         </li>
       </ul>
       <div className="nav-right">
