@@ -23,9 +23,9 @@ function App() {
         <Profession />
       </div>
       <Gallery />
-      {/* <div id="footer" className="footer">
+      <div id="footer" className="footer">
         <Footer />
-      </div> */}
+      </div>
     </div>
   );
 }
