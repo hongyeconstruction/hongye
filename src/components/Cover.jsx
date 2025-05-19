@@ -14,7 +14,7 @@ function Cover() {
       <div className="corp-descrip">
         Siteone Group (Previous Leonlin Landscaping) has been serving the GTA
         community For over 16 years and empowering countless homeowner’s to
-        build their ideal outdoor spaces.
+        build their ideal outdoor spacesxxx.
       </div>
       <div className="corp-btn">
         <ServiceAccess />
