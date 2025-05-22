@@ -40,7 +40,7 @@ function Header() {
           </a>
         </li>
         <li>
-          <a href="#service" onClick={handleLinkClick}>
+          <a href="#footer" onClick={handleLinkClick}>
             Our Service
           </a>
         </li>

@@ -14,10 +14,12 @@ function Footer() {
           </div>
         </div>
         <ul className="footer-service">
-          <li>Service1</li>
-          <li>Service2</li>
-          <li>Service3</li>
-          <li>Service4</li>
+          <li>Interlocking</li>
+          <li>Backyard Patio Installation</li>
+          <li>Natural Stone Installation</li>
+          <li>Wall & Steps Retaing</li>
+          <li>Flower Beding</li>
+          <li>Garden Light Installation</li>
         </ul>
       </div>
       <div className="footer-contact">

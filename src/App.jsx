@@ -19,8 +19,8 @@ function App() {
       </div>
       <div className="middle">
         <Intro />
-        <Services />
-        <Profession />
+        {/* <Services />
+        <Profession /> */}
       </div>
       <Gallery />
       <div id="footer" className="footer">

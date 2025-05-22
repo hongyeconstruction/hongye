@@ -7,14 +7,13 @@ function Cover() {
     <div className="cover">
       <div className="corp-logo-name">
         <div className="corp-logo"></div>
-        <div className="corp-name">
-          Hongye Landscaping Construction & Construction
-        </div>
+        <div className="corp-name">Hongye Landscaping Construction</div>
       </div>
       <div className="corp-descrip">
-        Siteone Group (Previous Leonlin Landscaping) has been serving the GTA
-        community For over 16 years and empowering countless homeowner’s to
-        build their ideal outdoor spacesxxx.
+        Out company specializes in outdoor landscaping, including retaining
+        walls, pavings stones, hardscape lighting. With over 15 years of
+        experience, we proudly serve residential and commercial clients around
+        GTA.
       </div>
       <div className="corp-btn">
         <ServiceAccess />
